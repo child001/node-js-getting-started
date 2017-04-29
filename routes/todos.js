@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
   query.descending('createdAt');
   query.find().then(function(results) {
     res.render('todos', {
-      title: 'TODO 列表',
+      title: 'TODO 列表123',
       todos: results
     });
   }, function(err) {
